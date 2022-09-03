@@ -1,0 +1,12 @@
+.cFCounter {
+    width: 250px;
+}
+.cFCounter > div {
+    padding-top: 10px;
+}
+.cCCounter,
+.cBCounter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

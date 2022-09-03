@@ -1,0 +1,13 @@
+div {
+    background-color: #333;
+    color: #fff;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    list-style: none;
+    margin-right: 2rem;
+}
