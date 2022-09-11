@@ -1,5 +1,6 @@
 import React from 'react'
 import './Item.css'
+// import ItemCount from '../ItemCount/ItemCount'
 
 const Item = ({title, URLimg, price}) => {
 // export const Item = ({item}) => {
@@ -10,9 +11,7 @@ const Item = ({title, URLimg, price}) => {
           <img src={URLimg} />
           <h3>$ {price}</h3>
           {/* <ItemCount /> */}
-          <button>Ver Detalle</button>
       </div>
-     
     </section>
   )
 }

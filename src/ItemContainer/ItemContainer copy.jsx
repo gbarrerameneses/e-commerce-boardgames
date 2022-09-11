@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import products from './../productsData'
+import apiJSON from '../apiJSON.json'
 import ItemListContainer from './../ItemListContainer/ItemListContainer'
 
 export const ItemContainer = () => {
@@ -18,7 +18,7 @@ export const ItemContainer = () => {
     })
 
     useEffect(()=>{
-        getItems(products, 3000)
+        getItems(apiJSON, 3000)
         .then((resolve) => {
             setItems(resolve)
         }).catch((err) => console.log(err, ": No hay data"))

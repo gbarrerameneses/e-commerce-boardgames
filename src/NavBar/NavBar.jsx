@@ -1,15 +1,16 @@
 import React from 'react'
 import './NavBar.css'
+import { Link, NavLink } from 'react-router-dom'
 import CardWidget from '../CardWidget/CardWidget'
 
 const NavBar = () => {
   return (
     <>
-      <div>
+      <div className="navbar">
         <ul>
-          <li>Home</li>
-          <li>BoardGames</li>
-          <li>Contact</li>
+          <li><NavLink to={'/'}>Home</NavLink></li>
+          <li><Link to={'/boardgames'}>BoardGames</Link></li>
+          <li><Link to={'/contact'}>Contact</Link></li>
           <li><CardWidget/></li>
         </ul>
       </div>

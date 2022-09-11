@@ -1,0 +1,22 @@
+/* .ItemListContainerCategory {
+    padding: 20px;
+    margin-top: 15px;
+    background-color: aqua;
+}
+.cCard  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+.containerItem {
+    color: black;
+    margin-top: 30px;   
+}
+#ItemListContainerCategory{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
