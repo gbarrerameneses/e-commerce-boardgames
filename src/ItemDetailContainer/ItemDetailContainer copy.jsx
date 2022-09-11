@@ -23,7 +23,6 @@ useEffect(() => {
     })
 }, [])
 
-
 //getItem con Promise
 const getItem = () => { 
     return new Promise(resolve => {
