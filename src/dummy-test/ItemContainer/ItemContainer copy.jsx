@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import apiJSON from '../apiJSON.json'
+import apiJSON from '../apiData.json'
 import ItemListContainer from './../ItemListContainer/ItemListContainer'
 
 export const ItemContainer = () => {
