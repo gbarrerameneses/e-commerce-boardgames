@@ -24,7 +24,7 @@ const ItemCount = ({ stock, initial, onAdd }) => {
     }
 
     return (
-        <div className='counterBox' >
+        <div>
             {stock === 0 ? (
                 <div>
                     <p>No hay producto disponible en el inventario.</p>

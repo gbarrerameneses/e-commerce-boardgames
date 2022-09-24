@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link }from 'react-router-dom'
 
-const Item = ({title, URLimg, price, id}) => {
+const Item = ({title, img, price, id}) => {
   return (
     <div>
         <div>
-            <img src={URLimg} alt="" />
+            <img src={img} alt="" />
         </div>
         <div>
             <h1>{title}</h1>

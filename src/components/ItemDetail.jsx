@@ -4,7 +4,7 @@ import { useCart } from '../context/CartContext'
 
 const ItemDetail = ({boardgames}) => {
 
-  const { stock, title, URLimg, description, price, } = boardgames
+  const { stock, title, img, description, price, } = boardgames
   const {addToCart} = useCart();
 
   const onAdd =(count) => {
@@ -17,7 +17,7 @@ const ItemDetail = ({boardgames}) => {
     <>
     <div>ItemDetail</div>
     <div>
-      <img src={URLimg} alt="" />
+      <img src={img} alt="" />
     </div>
     <div>
       <h2>{title}</h2>
