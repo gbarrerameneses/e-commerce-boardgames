@@ -1,4 +1,4 @@
-import Cart from '../assets/icons/addToCart.svg'
+import Cart from '../assets/icons/cart.svg'
 import { useCart } from '../context/CartContext'
 
 export const CartWidget = () => {
@@ -7,9 +7,9 @@ export const CartWidget = () => {
 
   return (
     <>
-    <div>
-        <img src={Cart} alt="" />
-        <p>{totalCanasta()}</p>
+    <div className='d-flex'>
+        <img src={Cart} alt="" style={{ width: '30px' }} />
+        <p className='countBasket'>{totalCanasta()}</p>
     </div>
     </>
   )

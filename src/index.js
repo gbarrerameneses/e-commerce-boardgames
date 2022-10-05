@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-// import './styles/styles.scss';
+import './index.css';
 import reportWebVitals from './reportWebVitals'
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";

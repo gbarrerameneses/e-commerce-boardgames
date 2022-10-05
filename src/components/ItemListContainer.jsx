@@ -5,6 +5,8 @@ import { collection, getDocs, getFirestore, query, where } from 'firebase/firest
 // import apiData from '../apiData.json'
 import ItemList from './ItemList'
 
+// import { Carousel } from './Carousel';
+
 export const ItemListContainer = () => {
 
     const [ items, setItems ] = useState([])
@@ -51,20 +53,10 @@ export const ItemListContainer = () => {
 
   return (
    <>
-
-    <ItemList data={items} />
-     {/* <div>ItemListContainer</div>
-     <div>
-        { items?.length ?
-        <div>
-            <ItemList data={items}/>
-        </div>    
-        :
-        <div>
-            <h2>Cargando...</h2>
-        </div>
-    }
-     </div> */}
+ {/* <Carousel/> */}
+    <div className="container d-flex justify-content-around align-items-center flex-wrap mt-5">
+        <ItemList data={items} />
+    </div>
    </>
   )
 }

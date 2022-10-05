@@ -30,13 +30,15 @@ const ItemDetailContainer = () => {
 
   return (
     <>
-    <div>ItemDetailContainer</div>
-    <div>
+   
+    <div >
         { Object.entries(boardgames).length === 0 ?
-        <div><h2>Cargando...</h2></div>
+        <div className="text-center">
+          <strong>Loading...</strong>
+          <div className="spinner-border ms-auto" role="status" aria-hidden="true"></div>
+        </div>
         :
         <ItemDetail boardgames={boardgames} />
-        // <ItemDetail {...boardgames} />
         }
     </div>
     </>
