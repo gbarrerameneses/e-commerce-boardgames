@@ -18,3 +18,5 @@
 - Formik
 - Sweetalert2
 
+#### El Deploy del proyecto fue realizado en vercel y lo puedes observar en el siguente link
+https://e-commerce-boardgames.vercel.app/
